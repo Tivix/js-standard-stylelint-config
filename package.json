@@ -1,0 +1,24 @@
+{
+  "name": "@tivix/stylelint-config",
+  "version": "1.0.0",
+  "description": "Tivix's stylelint config",
+  "main": "index.js",
+  "author": "tivix",
+  "license": "UNLICENSED",
+  "private": false,
+  "homepage": "https://github.com/tivix/js-standard-stylelint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tivix/js-standard-stylelint-config.git",
+  },
+  "dependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.9.0"
+  },
+  "peerDependencies": {
+    "@tivix/prettier-config": "git@github.com:Tivix/js-standard-prettier-config.git"
+  }
+}
